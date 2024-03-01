@@ -9,11 +9,15 @@ const SignUp = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
-  const { signup, loading, error, token, user, message, statusCode } = useAuth();
+  const { signup, loading, isLoggedin,error, token, user, message, statusCode } = useAuth();
   const [isUser, setIsuser] = useState(true);
   const navigate = useNavigate();
 
   useEffect(() => {
+    console.log("loading",loading)
+    console.log("message",message)
+    console.log("isLoggedin",isLoggedin)
+    console.log("statuscode",statusCode)
     if(statusCode===201){
       navigate('/login');
     }

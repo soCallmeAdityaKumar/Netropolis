@@ -15,10 +15,12 @@ const Navbar = () => {
     setactive('navBar');
   }
   const [loggedin,setLoggedin]=useState(false)
-  const { logout } = useAuth()
+  const [iuser,setiuser]=useState(false)
+  const { isLoggedin,logout,isUser } = useAuth()
   useEffect(() => {
-    const isLoggedin = localStorage.getItem('isLoggedin');
+    // const isLoggedin = localStorage.getItem('isLoggedin');
     setLoggedin(isLoggedin); 
+    setiuser(isUser)
   }, []);
   const handleLogout = (e) => {
     e.preventDefault()
@@ -83,7 +85,7 @@ const Navbar = () => {
               {loggedin &&<button className="btn"  onClick={(e)=>handleLogout(e)}>
               <a>Logout</a>
               </button>}
-             {<button className="btn">
+             {!iuser&&<button className="btn">
                 <a href="/form">Create Quest</a>
               </button>}
             </div>

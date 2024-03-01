@@ -27,7 +27,6 @@ const AdminSignup = () => {
     if(statusCode===201){
       navigate('/adminlogin')
     }
-
   },[loading])
 
   const handleClick = (e) => {

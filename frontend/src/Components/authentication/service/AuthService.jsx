@@ -9,16 +9,16 @@ const initialState = {
   message:null,
   loading: false,
   error: null,
-  isLoggedin:false,
+  isLoggedin:null,
   isUser:null,
 };
 
 const authReducer = (state, action) => {
   switch (action.type) {
     case 'SIGNUP_REQUEST':
-      return { ...state,statusCode:null, loading: true, error: null,token:null,message:null,user:null,isLoggedin:false,isUser:null };
+      return { ...state,statusCode:null, loading: true, error: null,token:null,message:null,user:null,isLoggedin:null,isUser:null };
     case 'LOGIN_REQUEST':
-      return { ...state,statusCode:null, loading: true, error: null,token:null,message:null,user:null ,isLoggedin:false,isUser:null};
+      return { ...state,statusCode:null, loading: true, error: null,token:null,message:null,user:null ,isLoggedin:null,isUser:null};
     case 'AUTH_SUCCESS':
       return { ...state,statusCode:action.payload.statusCode, user:action.payload.user ,token: action.payload.token,message:action.payload.message,isLoggedin:action.payload.isLoggedin,isUser:action.payload.isUser,loading: false, error: null, };
     case 'AUTH_ERROR':
