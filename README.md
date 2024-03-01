@@ -13,10 +13,9 @@
 Python 
 React JS 
 Flask 
-PostGREs SQL
+PostgreSQL
 Figma
 
-Server: Node JS, Express JS
 
 ## Features
 
@@ -48,20 +47,23 @@ For frontend:
 ```
 For backend: 
 ```bash
-  npm install
+  cd Backend
+  source env/Scripts/activate
+  export FLASK_APP=main.py
+  flask run
 ```
-Start the server
-
-```bash
-  npm run-dev
-```
-
 
 ## Demo
 
 https://netropolismain.onrender.com/login
 
+##Figma File
 
+https://drive.google.com/file/d/1OG9la-T3g1tKPfzUj5c7KSR2Xb6wMFAI/view?usp=sharing
+
+## Video 
+
+https://drive.google.com/file/d/1Jd4Rs0yvhQWwcU5eU66MFPZkSQGkydDw/view?usp=drive_link
 
 ## Screenshots
 
