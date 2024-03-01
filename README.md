@@ -66,13 +66,13 @@ https://netropolismain.onrender.com/login
 ## Screenshots
 
 ### User Registration and Authentication
-![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/2.jpeg)
-![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/4.jpeg)
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/5.png)
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/4.png)
 
 
 ### Special Offers Front page
-![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/3.jpeg)
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/3.png)
 
 ### Search 
-![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/1.jpeg)
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/1.png)
 
