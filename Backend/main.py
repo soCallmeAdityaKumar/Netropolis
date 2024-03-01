@@ -4,10 +4,12 @@ from extensions import jwt
 from auth import authUser_bp,authComp_bp
 from job import job_bp
 from flask_cors import CORS
+import os
 # from models import init_db
 def create_app():
 
     app=Flask(__name__)
+    app.config['JWT_SECRET_KEY'] = os.environ.get('FLASK_JWT_SECRET_KEY', 'fallback_secret_key')
     app.config.from_prefixed_env()
     CORS(app)
     #initialize app
