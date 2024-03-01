@@ -45,6 +45,7 @@ For frontend:
 ```bash
   cd frontend/
   npm install
+  npm run dev
 ```
 For backend: 
 ```bash
