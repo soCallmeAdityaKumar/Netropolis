@@ -17,7 +17,7 @@ const SignUp = () => {
     if(statusCode===201){
       navigate('/login');
     }
-  }, [loading]);
+  }, [statusCode]);
   const [loadingPage, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {

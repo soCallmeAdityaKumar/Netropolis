@@ -1,5 +1,5 @@
 from  flask import Blueprint,jsonify,request
-from models import User,Company
+# from models import User,Company
 from datetime import datetime
 from extensions import connection
 import time
