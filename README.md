@@ -73,6 +73,6 @@ https://ginger-app.onrender.com/
 ### Special Offers Front page
 ![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/3.jpeg)
 
-### Search Users
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Search%20user.png)
+### Search 
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/1.jpeg)
 
