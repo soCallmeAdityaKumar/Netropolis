@@ -1,5 +1,6 @@
 - Team Name: IITISM DEVS
 - College: IIT Dhanbad
+- Team Members: Aditya Kumar, Antriksh Dangi, Abhay Kumar
 
 
 # Netropolis
