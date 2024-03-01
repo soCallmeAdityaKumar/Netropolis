@@ -66,24 +66,13 @@ https://ginger-app.onrender.com/
 ## Screenshots
 
 ### User Registration and Authentication
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Authenticaton.png)
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Authenticaton%20(2).png)
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/2.jpeg)
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/4.jpeg)
 
 
-### Search Option
-![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/1.jpeg)
+### Special Offers Front page
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/3.jpeg)
 
-### Create Group Chats
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Create%20Group%20Chat.png)
+### Search Users
+![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Search%20user.png)
 
-### Notifications
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Notifications.png)
-
-### Add or Remove users from group
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Add%20or%20Remove%20users%20from%20group.png)
-
-### Chatbot
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Chatbot.png)
-
-### View User Profile
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/View%20Users%20profile.png)
