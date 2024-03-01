@@ -1,9 +1,9 @@
 # from extensions import connection
 from datetime import datetime
-from models import Job
+# from models import Job
 from extensions import connection
 from  flask import Blueprint,jsonify,request
-from models import init_db
+# from models import init_db
 from flask_cors import CORS, cross_origin
 import json
 from flask_jwt_extended import jwt_required,get_jwt_identity
@@ -292,5 +292,5 @@ def apply_task():
     return jsonify({"message":"Failed to apply"}),200
 
 
-if __name__ == '__main__':
-    init_db()
+# if __name__ == '__main__':
+#     init_db()

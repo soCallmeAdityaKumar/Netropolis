@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { createContext, useContext, useReducer } from 'react';
+// const BASE_URL='http://localhost:5000/auth/'
 const BASE_URL='https://netropolis-pdy0.onrender.com/auth/'
 const initialState = {
   statusCode:null,
