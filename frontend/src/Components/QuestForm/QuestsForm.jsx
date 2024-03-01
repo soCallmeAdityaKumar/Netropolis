@@ -42,7 +42,7 @@ const QuestsForm = () => {
     if (title !== "" && description !== "" && category.length !== 0 && location !== "" && difficulty !== "" && additionalInfo !== "") {
       setSubmitting(true)
       try {
-        const response = await axios.post('http://localhost:5000/jobs/createjob', params, {
+        const response = await axios.post('https://netropolis-pdy0.onrender.com/jobs/createjob', params, {
           headers: {
             'Authorization': `Bearer ${token}`,
             'Content-Type': 'application/json'

@@ -57,7 +57,7 @@ const Offer = ({questData,change,isChange}) => {
     Aos.init({duration: 2000})
     const getOffers=async()=>{
       try{
-        const response=await axios.get('http://localhost:5000/jobs/all')
+        const response=await axios.get('https://netropolis-pdy0.onrender.com/jobs/all')
         if(response){
           off=response.data.jobs
           if(off)setOffers(off)

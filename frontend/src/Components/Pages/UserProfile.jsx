@@ -56,7 +56,7 @@ const UserProfile = () => {
   const handleUpdate= async()=>{
     setUpdating(true)
   try{
-      const {message,user}= await axios.put('http://localhost:5000/auth/user/change_profile',reqBody,{
+      const {message,user}= await axios.put('https://netropolis-pdy0.onrender.com/auth/user/change_profile',reqBody,{
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'
@@ -74,7 +74,7 @@ const UserProfile = () => {
 }
   const getProfile= async()=>{
     try{
-      const response= await axios.get('http://localhost:5000/auth/user/profile',{
+      const response= await axios.get('https://netropolis-pdy0.onrender.com/auth/user/profile',{
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'

@@ -44,11 +44,11 @@ const DetailsPage = () => {
     Aos.init({duration: 2000})
       const getDetails=async()=>{
         try{
-          const response=await axios.get(`http://localhost:5000/jobs/get_job?job_id=${job_id}`)
+          const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/get_job?job_id=${job_id}`)
           off=response.data.jobs[0]
           company_id=off.company_id
           try{
-            const resp= await axios.get(`http://localhost:5000/auth/company/company_for_quest?id=${company_id}`)
+            const resp= await axios.get(`https://netropolis-pdy0.onrender.com/auth/company/company_for_quest?id=${company_id}`)
             setCompanyDetails(resp.data[0])
           }catch{
             console.log("Cannot Get the Details of the company")

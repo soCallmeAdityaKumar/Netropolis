@@ -16,25 +16,25 @@ const Home = ({handleDataFromHome}) => {
 
   const handleSearch=async()=>{
     if(location!==''&&category!==''&&company!==''){
-      const response=await axios.get(`http://localhost:5000/jobs/filter?location=${location}&category=${category}&name=${company}`)
+      const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/filter?location=${location}&category=${category}&name=${company}`)
       handleData(response.data)
     }else if(company==''&&location==''){
-      const response=await axios.get(`http://localhost:5000/jobs/category?category=${category}}`)
+      const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/category?category=${category}}`)
       handleData(response.data)
     }else if(company==''&&category==''){
-      const response=await axios.get(`http://localhost:5000/jobs/location?location=${location}`)
+      const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/location?location=${location}`)
       handleData(response.data)
     }else if(location==''&&category==''){
-      const response=await axios.get(`http://localhost:5000/jobs/company_name?name=${company}`)
+      const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/company_name?name=${company}`)
       handleData(response.data)
     }else if(location==''){
-      const response=await axios.get(`http://localhost:5000/jobs/filterIC?catergory=${category}&name=${company}`)
+      const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/filterIC?catergory=${category}&name=${company}`)
       handleData(response.data)
     }else if(category==''){
-      const response=await axios.get(`http://localhost:5000/jobs/filetrLI?name=${company}&location=${location}`)
+      const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/filetrLI?name=${company}&location=${location}`)
       handleData(response.data)
     }else if(company==''){
-      const response=await axios.get(`http://localhost:5000/jobs/filterLC?category=${category}&location=${location}`)
+      const response=await axios.get(`https://netropolis-pdy0.onrender.com/jobs/filterLC?category=${category}&location=${location}`)
       handleData(response.data)
     }else{
       // Show a toast to enter some details
