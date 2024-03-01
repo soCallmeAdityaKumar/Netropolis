@@ -1,4 +1,4 @@
-- Name: IITISM DEVS
+- Team Name: IITISM DEVS
 - College: IIT Dhanbad
 
 
