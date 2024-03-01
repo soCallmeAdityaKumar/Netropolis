@@ -69,14 +69,9 @@ https://ginger-app.onrender.com/
 ![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Authenticaton.png)
 ![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Authenticaton%20(2).png)
 
-### Real Time Chatting with Typing indicators
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Real%20Time%20Chatting%20with%20Typing%20indicators.png)
 
-### One to One chat
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/One%20to%20One%20chat.png)
-
-### Search Users
-![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Search%20user.png)
+### Search Option
+![](https://github.com/soCallmeAdityaKumar/Netropolis/blob/main/asset/1.jpeg)
 
 ### Create Group Chats
 ![](https://github.com/antriksh-9/Ginger_chat-app/blob/master/Screenshots/Create%20Group%20Chat.png)
