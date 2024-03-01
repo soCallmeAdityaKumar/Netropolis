@@ -11,6 +11,6 @@ connection = psycopg2.connect(
         database=os.environ['DATABASE'],
         user=os.environ['DB_USERNAME'],
         password=os.environ['DB_PASSWORD'])
-db= SQLAlchemy()
+# db= SQLAlchemy()
 
 jwt=JWTManager()
